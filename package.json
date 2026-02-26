@@ -1,0 +1,36 @@
+{
+  "name": "openrouter-mcp",
+  "version": "2.0.0",
+  "description": "Talk to 500+ AI models from inside Claude Code. One file. Zero config.",
+  "main": "index.js",
+  "bin": {
+    "openrouter-mcp": "index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "mcp",
+    "openrouter",
+    "claude-code",
+    "ai",
+    "llm",
+    "deepseek",
+    "gemini",
+    "gpt",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthropics/openrouter-mcp"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  }
+}
